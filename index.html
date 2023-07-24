@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Pinjari Shabana<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hai I am</h1>
+          <span class="auto">Pinajri Shabana</span>
+          <p>
+            I am shabana pursuing final year of engineering in the department of CSE from RGUKT RK-VALLEY Idupukapaya.
+          </p>
+          <button>Give an oppurtunity</button>
+        </div>
+        <div class="main-two">
+          <img src="Shabana 11.jpg" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          I have done small web development projects which are industrial applicability by using web technologies like HTML,CSS,JAVASCRIPT,BOOTSTRAP,PHP,SQL.
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="won.png" alt="" />
+          <h3>Online booking for seven wonders </h3>
+          <p>
+            It's a website where people can book ticket from online for seven wonders
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="lo.png" alt="" />
+          <h3>resolution loss of functions</h3>
+          <p>
+           By this the people can know what will happen we enlarge the image and how we get the clarity
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="ho.png" alt="" />
+          <h3>Hotel Management</h3>
+          <p>
+            It's a website where all the details of the hotel will be stored and can accessed by the hotel manager.
+          </p>
+          <button>Live Preview</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Pinjari Shabana</span>
+          <p>
+            I am shabana pursiuing third year of enginnering in the department of <b> CSE </b> from IIIT RGUKT RK-VALLEY. I completed by 10th standerd in Zilla parishath High School Kurnool,Kurnool District,and i completed my PUC in IIIT itself and currently pursuing engineering.My hobbies are reading books,listening to music,Browsing internet.I learned web Technologies like <b> HTML, CSS, JAVASCRIPT, BOOSTRAP,</b> and programming languages like <b> python, c, java </b>.
+          </p>
+          <div class="btns">
+            <button>Look On My Resume</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="Shabana 11.jpg" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2023 Shabana</div>
+        <div class="social">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Pamisetty Shabana", "Web Developer", "UI/UX Designer"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
